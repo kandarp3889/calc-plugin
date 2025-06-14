@@ -1,0 +1,156 @@
+.main_container {
+    display: flex;
+    width: 100%;
+    background-color: #2B2B2B;
+    padding: 15px 0px;
+    border-radius: 0px 0px 7px 7px;
+}
+.numbers{
+    width: 45%;
+}
+.numbers h5 {
+    color: #fff;
+    margin: 0px 0px 0px 40px;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: poppins;
+}
+.numbers p {
+    color: #fff;
+    margin: 0px 0px 0px 30px;
+    font-family: poppins;
+    font-weight: 300;
+}
+.pro_incrimant {
+    width: 55%;
+    display: flex;
+    align-items: center;
+}
+.price h4 {
+    color: #fff;
+    font-family: poppins;
+    font-weight: 700;
+    font-size: 25px;
+    margin: 0px;
+}
+.value_btn {
+    background-color: #fff;
+    margin: 0px 0px 0px 15px;
+    border-radius: 0px 0px 7px 7px;
+}
+.value_btn span{
+    font-size: 16px;
+    font-family: poppins;
+    font-weight: 700;
+}
+.value_btn button{
+    border: none;
+    color: #2B2B2B;
+    font-weight: 700;
+    font-family: poppins;
+    font-size: 18px;
+}
+.value_btn button:hover{
+    background-color: #fff;
+    border-radius: 7px;
+    color: #2B2B2B;
+}
+
+
+.tab_btn {
+    width: 100%;
+    display: flex;
+    margin: 8px 0px 0px 0px;
+    justify-content: space-between;
+}
+.onl_btn {
+    width: 49%;
+    background-color: #FCC21B;
+    text-align: center;
+    border-radius: 7px;
+}
+.onl_btn h4 {
+    font-family: poppins;
+    font-weight: 700;
+    font-size: 24px;
+    margin: 12px 0px;
+}
+.tab{
+    width: 49%;
+    padding: 0px;
+}
+.tab button {
+    border: none;
+    width: 100%;
+    background-color: #fff;
+    padding: 3px 0px;
+    color: #292929;
+    font-family: poppins;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 7px 7px 0px 7px;
+}
+.tab button:hover{
+    background-color: #fff;
+    color: #292929;
+}
+
+.tab_model {
+    width: 100%;
+    background: #fff;
+    border-radius: 7px 0px 7px 7px;
+    margin: 4px 0px 0px 0px;
+    padding: 10px 60px 30px 60px;
+    display: none;
+    position: absolute;
+}
+.tab_content{
+    display: flex;
+    margin: 25px 0px 0px 0px;
+}
+.icon{
+    width: 25%;
+}
+.btn_value{
+    width: 75%;
+}
+.btn_value h4 {
+    margin: 0px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    color: #292929;
+    font-size: 20px;
+}
+
+
+/* toggle button */
+.toggle {
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    position: relative;
+    border-radius: 34px;
+    cursor: pointer;
+    border: 4px solid #FCC21B;
+}
+
+.toggle::before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #FCC21B;
+    top: 3px;
+    left: 3px;
+    transition: transform 0.3s;
+}
+
+.toggle.on {
+    background-color: #FCC21B;
+}
+
+.toggle.on::before {
+    transform: translateX(26px);
+    background-color: #fff;
+}
